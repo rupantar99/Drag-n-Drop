@@ -68,7 +68,7 @@ function showMessage(message, containerId) {
   }
 }
 
-// Add the dropped item to the list
+// Adding dropped items to the list
 
 function addDroppedItem(itemText, itemNumber) {
   var droppedItem = { itemText: itemText, itemNumber: itemNumber };
@@ -87,7 +87,7 @@ function showDroppedItems() {
   }
 }
 
-// Reset tfunction
+// Reset function
 function reset() {
   var container1 = document.getElementById("container1");
   var container2 = document.getElementById("container2");
